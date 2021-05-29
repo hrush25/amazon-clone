@@ -72,7 +72,7 @@ function Login() {
             Sign In
           </button>
 
-          <p>
+          <p className="account__agreement">
             {" "}
             By signing-in you agree to the AMAZON FAKE CLONE Conditions of Use &
             Sale. Please see our Privacy Notice, our Cookies Notice and our

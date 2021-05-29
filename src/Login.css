@@ -57,6 +57,14 @@
   border-color: #a88734 #9c7e31 #846a29;
 }
 
+.login__SignInButton:hover {
+  background-color: #f7b03c;
+}
+
+.account__agreement {
+  font-size: 13px;
+}
+
 .login__registerButton {
   border-radius: 2px;
   width: 100%;
@@ -64,4 +72,8 @@
   border: 1px solid;
   margin-top: 10px;
   border-color: darkgray;
+}
+
+.login__registerButton:hover {
+  background-color: #f7b03c;
 }

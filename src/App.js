@@ -12,6 +12,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 import Orders from "./Orders";
 import FlipMove from "./FlipMove";
+import Footer from "./Footer";
 
 const promise = loadStripe(
   "pk_test_51IuvXRSDG8EvR8kfNCjNFmNaRr5Y7sZ3PPmU1irbxMyf2XqfYPtbAUd0D3OEzsJv7BOLKsl9oMijVf01QeH80fXD00ENGrAozE"
@@ -74,6 +75,7 @@ function App() {
           <Route path="/">
             <Header />
             <Home />
+            <Footer />
           </Route>
         </Switch>
       </div>

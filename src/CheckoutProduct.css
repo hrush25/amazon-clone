@@ -16,8 +16,13 @@
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
 }
+.checkoutProduct__info > button:hover {
+  background-color: #f7b03c;
+  padding: 10px;
+}
 
 .checkoutProduct__image {
+  margin-right: 15px;
   object-fit: contain;
   width: 180px;
   height: 180px;
