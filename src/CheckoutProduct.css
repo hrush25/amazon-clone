@@ -15,10 +15,12 @@
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
+  padding: 6px;
+  border-radius: 3px;
 }
 .checkoutProduct__info > button:hover {
-  background-color: #f7b03c;
-  padding: 10px;
+  background-color: #f7ca00;
+  /* ; */
 }
 
 .checkoutProduct__image {

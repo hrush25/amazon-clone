@@ -6,7 +6,6 @@ const stripe = require("stripe")(
 );
 
 // API
-
 // - App config
 const app = express();
 
